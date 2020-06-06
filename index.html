@@ -3,109 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Presentación - Juan José Rojo</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <figure>
-                <img src="images/logo.png" alt="Logo de presentación">
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="images/logo.png" alt="Logo de presentación" height="60px";>
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
-                    <li><a href="#acercademi">Información sobre mi</a></li>
-                    <li><a href="#massobremi">Más sobre mi</a></li>
-                    <li><a href="#contactos">Contacto</a></li>
+                    <li><a class="link" href="#acerca_de_mi">Información sobre mi</a></li>
+                    <li><a class="link" href="#mas_sobre_mi">Más sobre mi</a></li>
+                    <li><a class="link" href="#contacto">Contacto</a></li>
                 </ol>
             </nav>
         </div>
     </header>
 
-    <section>
-        <div>
+    <section class="principal">
+        <div class="container">
             <h1>
-                Hola! Soy Juan José Rojo <br/> estudiante de programación <br/> enfocado en el desarrollo web
+                Hola! Soy <strong>Juan José Rojo</strong><br/> estudiante de programación <br/> enfocado en el <strong>desarrollo web.</strong> 
             </h1>
-            <img src="" alt="Foto cabecera">
+            <img class="imagen_principal" src="images/software.jpg" alt="Foto cabecera" width="350" height="190">
         </div>
     </section>
 
-    <section>
-        <div>
+    <section id="acerca_de_mi" class="acerca_de_mi">
+        <div class="container">
             <h2>Acerca de mi</h2>
-            <article>
-                <div>
-                    <h3>Juan José Rojo</h3>
-                    <h6>Estudiante de programación</h6>
-                    <p>Edad: 16 años</p>
-                    <p>Correo: jjrojoa@gmail.com</p>
-                    <p>Telefono: 301-682-1821</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, pariatur soluta. Doloremque suscipit quisquam neque ratione quia, eum voluptatibus tempora? Saepe recusandae rem modi doloribus magnam laboriosam quidem voluptatum veniam iure. Cumque saepe incidunt accusantium quidem iure possimus sint nisi, veritatis in iusto illum facilis tempore atque expedita officia repudiandae ad. <br/> Placeat illum vitae accusantium error, asperiores commodi eius consequuntur fuga et iure, adipisci voluptatum soluta aspernatur!
+            <article class="sobre_mi">
+                <div class="sobre_mi_detalles">
+                    <h3 class="titulo_sobre_mi">Juan José Rojo</h3>
+                    <h6 class="subtitulo_sobre_mi"">Estudiante de programación</h6>
+                    <p class="info_sobre_mi"><strong>Edad: </strong>16 años</p>
+                    <p class="info_sobre_mi"><strong>Correo: </strong>jjrojoa@gmail.com</p>
+                    <p class="info_sobre_mi"><strong>Telefono: </strong>301-682-1821</p>
+                    <p class="descripcion_sobre_mi">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, pariatur soluta. Doloremque suscipit quisquam neque ratione quia. Cumque saepe incidunt accusantium quidem iure possimus sint nisi, veritatis in iusto illum facilis tempore atque expedita officia repudiandae ad. <br/> Placeat illum vitae accusantium error, asperiores commodi eius 
                     </p>
                 </div>
-                <figure>
-                    <img src="" alt="Foto sobre mi">
+                <figure class="imagen_sobre_mi_contenedor">
+                    <img class="imagen_sobre_mi" src="images/foto.png" alt="Foto sobre mi" height="300px">
                 </figure>
             </article>
         </div>
     </section>
 
-    <section>
-        <div>
-            <article>
-                <figure><img src="images/naruto.jpg" alt="Anime: Naruto"></figure>
-                <div>
-                    <h3>Hobby:</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur cupiditate nesciunt temporibus error doloribus sed nemo accusantium assumenda odit fugit vero voluptas corrupti vitae laboriosam odio, inventore perferendis voluptates mollitia? Illum id nesciunt repellendus? Nemo doloremque earum excepturi? Quam fugiat minus asperiores atque nisi alias vero repudiandae voluptas aperiam itaque officiis voluptatem esse provident enim magni ullam, quae, nihil obcaecati eius nemo? Doloribus, ducimus. Accusamus, rerum dolor?</p>
+    <div class="container">
+        <h2 class="titulo_mas_sobre_mi">Más sobre mi:</h2>
+    </div>
+
+    <section id="mas_sobre_mi" class="lista_mas_sobre_mi">
+        <div class="container">
+            <article class="mas_sobre_mi">
+                <figure class="imagen_mas_sobre_mi_contenedor"><img class="imagen_mas_sobre_mi" src="images/naruto.jpg" alt="Anime: Naruto"></figure>
+                <div class="detalle_mas_sobre_mi">
+                    <h3 class="titulo_mas_sobre_mi">Hobby:</h3>
+                    <p class="descripcion_mas_sobre_mi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur cupiditate nesciunt temporibus error doloribus sed nemo accusantium assumenda odit fugit vero voluptas corrupti vitae laboriosam odio, inventore perferendis voluptates mollitia? Illum id nesciunt repellendus? Nemo doloremque earum excepturi? Quam fugiat minus asperiores atque nisi alias vero repudiandae voluptas aperiam itaque officiis voluptatem esse provident enim magni ullam, quae, nihil obcaecati eius nemo? Doloribus, ducimus. Accusamus, rerum dolor?</p>
                 </div>
             </article>
 
-            <article>
-                <figure><img src="images/queen.jpg" alt="Banda de rock Queen"></figure>
-                <div>
-                    <h3>Banda favorita:</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a earum labore molestiae sapiente, provident architecto laudantium nihil aperiam cumque consequuntur magnam placeat tempora temporibus! Est beatae consequuntur totam autem cupiditate similique fugit officia, libero quibusdam rem exercitationem eos, accusamus debitis alias sint! Possimus, esse labore ex nisi nemo officia voluptas velit sed rem voluptatem totam quia quisquam, dolor odio!</p>
+            <article class="mas_sobre_mi">
+                <figure class="imagen_mas_sobre_mi_contenedor"><img class="imagen_mas_sobre_mi" src="images/queen.jpg" alt="Banda de rock Queen"></figure>
+                <div class="detalle_mas_sobre_mi">
+                    <h3 class="titulo_mas_sobre_mi">Banda favorita:</h3>
+                    <p class="descripcion_mas_sobre_mi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a earum labore molestiae sapiente, provident architecto laudantium nihil aperiam cumque consequuntur magnam placeat tempora temporibus! Est beatae consequuntur totam autem cupiditate similique fugit officia, libero quibusdam rem exercitationem eos, accusamus debitis alias sint! Possimus, esse labore ex nisi nemo officia voluptas velit sed rem voluptatem totam quia quisquam, dolor odio!</p>
                 </div>
             </article>
 
-            <article>
-                <figure><img src="images/hamburguesa.jpg" alt="Hamburguesa"></figure>
-                <div>
-                    <h3>Comida favorita:</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolorum ex quas libero quam eveniet dolore blanditiis ducimus! Blanditiis recusandae qui voluptates suscipit minima error, fugit magnam officia eligendi quae nihil nobis voluptatibus. Corporis distinctio doloribus quam sint, iusto voluptatum?</p>
+            <article class="mas_sobre_mi">
+                <figure class="imagen_mas_sobre_mi_contenedor"><img class="imagen_mas_sobre_mi" src="images/hamburguesa.jpg" alt="Hamburguesa"></figure>
+                <div class="detalle_mas_sobre_mi">
+                    <h3 class="titulo_mas_sobre_mi">Comida favorita:</h3>
+                    <p class="descripcion_mas_sobre_mi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolorum ex quas libero quam eveniet dolore blanditiis ducimus! Blanditiis recusandae qui voluptates suscipit minima error, fugit magnam officia eligendi quae nihil nobis voluptatibus. Corporis distinctio doloribus quam sint, iusto voluptatum?</p>
                 </div>
             </article>
 
-            <article>
-                <figure><img src="images/developer.jpg" alt="Programador web"></figure>
-                <div>
-                    <h3>Como me veo en un futuro:</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores laboriosam similique omnis eum incidunt deleniti quidem nobis distinctio! Expedita fugiat numquam voluptates dolor provident, magnam eum voluptas iusto qui, accusantium at dolorum libero a, distinctio tenetur? Ut tempore reiciendis voluptatem. Voluptatibus, nostrum nisi. Doloremque deleniti culpa voluptatem nemo? Veritatis ad fuga, exercitationem, suscipit quis minima dolorum at aut dicta distinctio, ipsum odit? Eos sapiente aliquid tempora ex, architecto illo? Asperiores voluptate hic autem labore officiis aperiam maxime placeat eius exercitationem tempore quae iure ipsum, ratione tenetur recusandae harum at voluptatem consequatur quia cupiditate! Quae rerum eius pariatur placeat minus distinctio?</p>
+            <article class="mas_sobre_mi">
+                <figure class="imagen_mas_sobre_mi_contenedor"><img class="imagen_mas_sobre_mi" src="images/developer.jpg" alt="Programador web"></figure>
+                <div class="detalle_mas_sobre_mi">
+                    <h3 class="titulo_mas_sobre_mi">Como me veo en un futuro:</h3>
+                    <p class="descripcion_mas_sobre_mi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores laboriosam similique omnis eum incidunt deleniti quidem nobis distinctio! Expedita fugiat numquam voluptates dolor provident, magnam eum voluptas iusto qui, accusantium at dolorum libero a, distinctio tenetur? Ut tempore reiciendis voluptatem. Voluptatibus, nostrum nisi. Doloremque deleniti culpa voluptatem nemo? Veritatis ad fuga, exercitationem, suscipit quis minima dolorum at aut dicta distinctio, ipsum odit? Eos sapiente aliquid tempora ex, architecto illo? Asperiores voluptate hic autem labore officiis aperiam maxime placeat eius exercitationem tempore quae iure ipsum, ratione tenetur recusandae harum at voluptatem consequatur quia cupiditate! Quae rerum eius pariatur placeat minus distinctio?</p>
                 </div>
             </article>
         </div>
     </section>
 
-    <section>
-        <div>
-            <form>
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <form class="formulario_email">
                 <h3>¿Deseas contactarme?</h3>
-                <input type="email">
+                <input type="email" placeholder="Dejame tu email">
                 <button>Enviar</button>
             </form>
-            <div>
-                <a href="https://twitter.com/?lang=es">Twitter</a>
-                <a href="https://es-la.facebook.com/">Facebook</a>
-                <a href="https://www.instagram.com/">Instagram</a>
+            <div class="social">
+                <a class="link_social twitter" href="https://twitter.com/?lang=es"></a>
+                <a class="link_social facebook" href="https://es-la.facebook.com/"></a>
+                <a class="link_social instagram" href="https://www.instagram.com/"></a>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="container">
             <div>
                 <p>Curso de desarrollo web</p>
             </div>
